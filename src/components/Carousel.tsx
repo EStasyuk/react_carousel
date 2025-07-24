@@ -51,7 +51,7 @@ const Carousel: React.FC<CarouselProps> = ({
   return (
     <div
       className="carousel-container"
-      style={{ width: frameSize * itemWidth }}
+      style={{ width: frameSize * itemFullWidth }}
     >
       <button
         type="button"
